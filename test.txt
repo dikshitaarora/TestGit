@@ -1,8 +1,17 @@
 Trying stuff out
-12345
-12345
-123
-45
+
+*IMPORTANT COMMANDS*
+- pull
+- push
+- rebase
+- fetch
+- branch
+- checkout branch
+- add
+- commit -m
+- commit -ammend
+- status
+- log
 
 Step 1 : 
 Install Git from https://git-scm.com/download/win
