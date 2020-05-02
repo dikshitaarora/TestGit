@@ -3,3 +3,37 @@ Trying stuff out
 12345
 123
 45
+
+Step 1 : 
+Install Git from https://git-scm.com/download/win
+
+Step 2 : 
+Make a repository in your GitHub account by the name 'TestGit'
+
+Step 3 :
+Configure user information using following commands
+$ git config --global user.name "[name]"
+$ git config --global user.email "[email address]"
+
+Step 4 :
+Download a project ('TestGit' repository in our case) and its entire version history using the URL present there
+$ git clone [url]
+
+Step 5 :
+Make a new txt file 'test.txt' in the folder 'TestGit' and use command '$ git status' to list all new/modified files
+
+Step 6 :
+Add it to your repository using the command
+$ git add test.txt
+
+Step 7 :
+To make a commit, use the following command -
+$ git commit -m "[Write a comment here]" test.txt
+
+Step 8 :
+To push your commits,
+$ git push -u origin master
+
+Step 9 :
+Repeat steps 6,7,8 when you've created a new file and wish to add it to your repository
+Repeat steps 7 and 8 when you wish to update the changes you've made in pre-existing files
